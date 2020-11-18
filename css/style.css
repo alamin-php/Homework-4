@@ -11,6 +11,10 @@ BASIC SETUP
 body {
     height: 100%;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    line-height: 1.5em;
+    font-weight: 400;
 }
 
 a {
@@ -27,15 +31,98 @@ img {
     vertical-align: middle;
 }
 
+
 /*==============================  
 RE-USEABLE CSS STYLE
 ================================*/
 
 .container {
-    max-width: 1140px;
+    max-width: 1170px;
     margin: 0 auto;
+}
+
+.clearfix{
+    overflow: hidden;
 }
 
 /*=======================
 HEADER CSS STYLES  
 =========================*/
+
+header{
+    background: #ecf1f5;
+    
+}
+.header-area {
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #dbdee1;
+}
+
+/* Logo area */
+.header-area .logo-area{
+    width: 90%;
+    float: left;
+}
+.header-area .logo-area .logo-text {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20pt;
+	color: #fe5a5d;
+	text-transform: uppercase;
+	padding: 20px 0 20px 35px;
+	display: inline-block;
+	border-left: 1px solid #dddddd;
+}
+
+/* Menu Bar */
+.header-area .menu-bar {
+	width: 5%;
+	float: left;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dbdee1;
+	padding: 20px;
+}
+.header-area .menu-bar strong{
+    display: inline-block;
+}
+.header-area .menu-bar strong i{
+    color: #393b42;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+/* Hero Area CSS */
+.hero-text {
+	width: 80%;
+	float: left;
+	margin: 80px auto 50px;
+}
+
+.hero-arrow {
+	width: 16%;
+	float: right;
+	margin: 300px auto 0;
+}
+
+.hero-area a i {
+	color: #fe5a5d;
+	font-size: 50px;
+	font-weight: 100;
+	display: block;
+	text-align: center;
+}
+
+.hero-text h1 {
+	font-size: 67pt;
+	text-transform: uppercase;
+	line-height: 1.5em;
+	color: #fe5a5d;
+	margin-bottom: 5px;
+	font-weight: 700;
+}
+
+.hero-text p {
+	padding: 0 65px;
+	font-size: 18px;
+	line-height: 1.5em;
+}
