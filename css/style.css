@@ -1,0 +1,41 @@
+/*==============================  
+BASIC SETUP
+================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+/*==============================  
+RE-USEABLE CSS STYLE
+================================*/
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*=======================
+HEADER CSS STYLES  
+=========================*/
