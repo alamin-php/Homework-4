@@ -126,3 +126,29 @@ header{
 	font-size: 18px;
 	line-height: 1.5em;
 }
+
+/* Service Area  */
+.service-area{
+	width: 1050px;
+	margin: 0 auto;
+}
+
+.service-area .digital-print{
+	padding: 50px 0;
+}
+
+.service-area .digital-print{}
+.service-area .image-area{
+	width: 30%;
+	float: left;
+}
+.service-area .image-area img{
+	width: 480px;
+	height: 500px;
+	display: block;
+}
+.service-area .text-area{
+	width: 30%;
+	float: right;
+}
+.service-area .text-area p{}
